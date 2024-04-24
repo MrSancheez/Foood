@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 0 0 70px;
+    color: #2C3847;
+;
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    margin: 0 0 0 200px;
+}
+
+.nav-links li {
+    list-style: none;
+    padding-left: 50px;
+}
+a span {
+    color: #5FB848;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #2C3847;
+}
+
+.topnav img{
+    padding: 0 5px 0 10px;
+    cursor: pointer;
+}
+.btn-nav{
+    padding: 15px;
+    border-radius: 27px;
+    background-color: #494949;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+}
+.heading {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+
+}
+.text-area {
+    transform: translateY(20%);
+}
+.text-area h1 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+h1 span {
+    color: #5FB848;
+}
+.text-area p {
+    font-size: 20px;
+    margin: 30px 0 50px 0;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    padding: 15px 50px;
+}
+.sub-header {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+.sub-header-text {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 20px;
+    font-size: 32px;
+}
+.sub-header-text >p {
+    margin-top: 10px;
+    font-size: 22px;
+}
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.card {
+    width: 18rem;
+    padding: 20px;
+}
+.card-body {
+    padding-top: 5px;
+    font-size: 18px;
+}
+.card-text {
+    margin-top: 10px;
+}
+.sub-header-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.mini-card {
+    padding: 5px;
+    margin: 0 50px 0 50px;
+}
+.mini-card > p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.main {
+    margin-top: 6em;
+}
+.about-us {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+.about-section {
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 40px;
+    margin-right: 50px;
+}
+
+.about-section h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.about-section p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-section a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.about-section a:hover {
+    background-color: #45a049;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+}
+.img-collection {
+    display: flex;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: -50px; /* need to adjust */
+    margin-bottom: 40px;
+}
+
+.left-side img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.right-side img {
+    width: 100%;
+    height: auto;
+}
+
+.fresh {
+    display: flex;
+    margin: 0 auto;
+    width: 1240px;
+    
+}
+
+.fresh-text {
+    margin: 100px 25px 100px 50px;
+}
+
+.fresh-text h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.fresh-text p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+
+}
+
+.cooked {
+    display: flex;
+    justify-content: center;
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.cooked img {
+    max-width: 500px;
+    height: 400px;
+}
+
+.cooked-main {
+    width: 600px;
+    margin-right: 50px;
+}
+.cooked-main h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.cooked-main p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.feature-list li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-left: 5px solid green;
+    font-size: 18px;
+}
+
+.feature-list li:before {
+    content: '✓';
+    color: green;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.miniCards {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.textCard {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.textCard h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.textCard p {
+    opacity: 0.8;
+}
+.cardSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.cardSection .card {
+    width: 32%;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 3px 0 rgba(0, 0, 0, 0.19);
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.cardSection .card:nth-child(2) {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardSection .card img {
+    padding-top: 25px;
+}
+
+.cardSection .card h3 {
+    margin: 20px 0
+}
+.cardSection .card p {
+    padding-bottom: 10px;
+}
+
+.testimonial-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.testimonial {
+    width: 49%;
+    /* Adjust width as needed */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.testimonial-head {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.testimonial-head svg {
+    position: absolute;
+      top: 8px;
+  right: 16px;
+}
+/* .testimonial-head-text {
+    display: flex;
+    align-items: center;
+} */
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+.testimonial h3 {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.testimonial p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0 
+}
+
+.testimonial-blockquote {
+    padding-top: 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.arrow {
+    margin-top: 50px;
+    text-align: center;
+}
+.arrow > img {
+    padding-left: 20px;
+}
+.arrow-left {
+    opacity: 0.2;
+}
+
+.subscribe-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.subscribe-section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.subscribe-section p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.subscribe-form {
+    display: inline-block;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-box h3 {
+    margin-bottom: 15px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.footer-box {
+    margin: 0 10px;
+}
+
+/* @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-box {
+        margin-bottom: 20px;
+    }
+} */
+
+/* Add a footer-bottom with copyright notice */
+.footer-bottom {
+    padding: 100px;
+    background-color: #4CAF50;
+    /* or the specific green color you want */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* Navbar adjustments */
+    .navbar {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;       
+    }
+    .topnav {
+        margin-left: 190px;
+    }
+    .btn-nav {
+        margin-right: 150px;
+    }
+    .nav-links li {
+        padding: 10px;
+    }
+
+    .btn-nav {
+        margin-top: 10px;
+        order: 3;
+        /* Ensures that the order button comes last */
+    }
+
+    /* Adjust heading for smaller screens */
+    .heading {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .text-area h1 {
+        font-size: 36px;
+    }
+
+    .text-area {
+        margin-bottom: 20px;
+    }
+
+    /* Cards in sub-header */
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* About Us section */
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+        
+    .image-row {
+        justify-content: center;
+    }
+
+    /* Testimonials */
+    .testimonial-container {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav-h2 {
+        font-size: 16px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    a {
+        font-size: calc(100% - 2px);
+    }
+    .text-area > h1, h2 {
+        font-size: 26px;
+    }
+    .text-area > p {
+        font-size: 16px
+    }
+    .sub-header-text > h1, h2 {
+        font-size: 26px;
+    }
+    .sub-header-text > p {
+        font-size: 16px;
+    }
+    .card-body > h3 {
+        font-size: 20px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Flex adjustments */
+    .fresh,
+    .cooked {
+        flex-direction: column;
+        padding: 0;
+    }
+
+        .fresh {
+            padding: 30px 20px;
+            /* Less padding on mobile */
+        }
+    
+        .fresh img {
+            max-width: 40%;
+            /* Full width image on mobile */
+        }
+    
+        .fresh-text {
+            max-width: 30%;
+        }
+        .fresh-text h2 {
+            font-size: 1.5rem;
+            /* Even smaller text for mobile */
+        }
+    
+        .fresh-text p {
+            font-size: 0.9rem;
+            /* Slightly smaller paragraph text */
+        }
+
+        .about-us {
+            max-width: 100%;
+        }
+        .image-row {
+            max-width: 100%;
+        }
+    .fresh-text,
+    .cooked-main {
+        text-align: center;
+    }
+    .cooked h2 {
+        font-size: 26px;
+    }
+    .cooked p {
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .cooked-main {
+        max-width: 43%;
+    }
+    .cooked img {
+        margin-top: 50px;
+    }
+    .cooked img,
+    .fresh img {
+        margin-bottom: 20px;
+        /* Add space below images when stacked */
+    }
+
+    /* Footer section */
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-box {
+        margin-bottom: 20px;
+    }
+
+    /* Footer bottom */
+    .footer-bottom {
+        padding: 15px;
+        /* More padding for readability */
+    }
+}
+
+/* Very small devices */
+@media only screen and (max-width: 480px) {
+
+    /* Further font size adjustments for readability */
+    h1,
+    h2,
+    h3,
+    p,
+    a {
+        font-size: calc(100% - 4px);
+        /* Further reduce font size */
+    }
+
+    /* Nav adjustments */
+    .nav-links li {
+        padding: 8px;
+    }
+
+    /* Button size adjustments */
+    .btn,
+    .btn-nav {
+        padding: 10px 20px;
+    }
+}
